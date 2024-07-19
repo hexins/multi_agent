@@ -8,7 +8,7 @@ class Orchestrator:
     """An Orchestrator agent."""
     def __init__(self, email_type = 'cold', input_file_name = 'sample_leads_10.csv', output_file_name = 'cold.json',
                  sender_name = 'Xin', sender_company = 'Food device solutions', 
-                 product_service = 'coffe machine',
+                 product_service = 'coffee machine',
                  relevant_aspect = 'beverage quality'):
         self.email_type = email_type
         self.input_file_name = input_file_name
