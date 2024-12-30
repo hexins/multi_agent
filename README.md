@@ -1,3 +1,10 @@
+# Overview
+This project is to show how to use LLM application framework like Langchain and create a multi-agent system.  
+In multi-agent system, there are different agents working together to complete the whole job,  
+each agent will focus on one task which will call LLM to execute.  
+This program will generate outreach emails according to the personal information in the csv input file.  
+The emails are generated using two different language models: Openai and Anthropic.  
+Then a judge agent will check which language model is doing better.
 # Installation and run
 make sure you have installed Python 3.10 environment
 We recommend you to create a local venv environment
