@@ -1,5 +1,5 @@
 # Overview
-This project is to show how to use LLM application framework like Langchain and create a multi-agent system.  
+This project is to show how to use LLM application framework like Langchain to create a multi-agent system.  
 In multi-agent system, there are different agents working together to complete the whole job,  
 each agent will focus on one task which will call LLM to execute.  
 This program will generate outreach emails according to the personal information in the csv input file.  
